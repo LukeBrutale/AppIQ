@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Yeseva+One&display=swap');
+
+:root {
+  --background-color: #181818;
+  --title-text-color: #FFFFFF;
+  --accent-color: #FFC700;
+}
+
+
+body {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 347px;
+  height: 647px;
+}
+
+.container {
+  background-color: var(--background-color);
+  height: auto;
+  width: 320px;
+}
+
+.header {
+  padding-top: 0;
+  height: 46px;
+  background-color: var(--background-color);
+}
+
+.background {
+  background-image: url(./image/rain_bk.jpg);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 647px;
+
+}
+
+.tagline{
+  padding-top: 27px;
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--title-text-color);
+}
+
+.tagline_p {
+  font-family: 'Yeseva One';
+  padding-top: 10px;
+  padding-left: 34px;
+  padding-right: 34px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+  margin: 0 auto;
+  display: block;
+  margin-top: 150px;
+  width: 189px;
+  height: 41px;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 20px;
+  background: radial-gradient(50% 50% at 50% 50%, #FFC700 0%, #FFC700 100%);
+}
