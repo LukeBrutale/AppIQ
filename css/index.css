@@ -78,7 +78,7 @@ button {
 }
 
 .main_section {
-  background-image: url(./image/rain_bk.jpg);
+  background-image: url(../image/rain_bk.jpg);
   background-repeat: no-repeat;
   width: auto;
   height: 522px;
@@ -155,7 +155,7 @@ button {
 }
 
 .section_about {
-  background-image: url(./image/image.jpg);
+  background-image: url(../image/image.jpg);
   background-repeat: no-repeat;
   width: auto;
   height: 339px;
@@ -218,7 +218,7 @@ button {
 }
 
 .section_context {
-  background-image: url(./image/rain_bk2.jpg);
+  background-image: url(../image/rain_bk2.jpg);
   background-repeat: no-repeat;
   width: auto;
   height: 533px;

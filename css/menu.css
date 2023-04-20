@@ -17,8 +17,18 @@ a {
     color: var(--title-text-color);
 }
 
-a:hover, a:focus, a:active{
-  color: var(--accent-color);
+.icon_close_btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 18px;
+  right: 13px;
+}
+
+.icon_close {
+  width: 28px;
+  height: 28px;
+
 }
 
 
@@ -28,7 +38,7 @@ a:hover, a:focus, a:active{
   margin: 110px auto auto 23px;
 }
 
-.link {
+.list_item {
   text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
@@ -36,12 +46,18 @@ a:hover, a:focus, a:active{
   font-size: 16px;
   line-height: 22px;
   text-transform: uppercase;
-
-  
 }
 
-.link:not(:last-child) {
+.list_item:not(:last-child) {
   padding: 0 0 27px 0;
+}
+
+.list_item_link:hover, .list_item_link:focus{
+  color: var(--accent-color);
+}
+
+.list_item_link.current {
+  color: var(--accent-color);
 }
 
 
