@@ -14,7 +14,13 @@ body {
 
 a {
   text-decoration: none;
+    color: var(--title-text-color);
 }
+
+a:hover, a:focus, a:active{
+  color: var(--accent-color);
+}
+
 
 .list {
   list-style: none;
@@ -25,13 +31,13 @@ a {
 .link {
   text-decoration: none;
   font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 22px;
-    text-transform: uppercase;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
 
-    color: var(--title-text-color); 
+  
 }
 
 .link:not(:last-child) {
@@ -39,6 +45,3 @@ a {
 }
 
 
-.link:hover {
-  color: var(--accent-color);
-}
