@@ -51,7 +51,6 @@ a {
 }
 
 .menu.is-open {
-
   transform: translateX(0%);
 }
 
