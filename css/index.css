@@ -3,6 +3,8 @@
   --title-text-color: #FFFFFF;
   --second-text-color: #272727;
   --accent-color: #FFC700;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      --duration: 250ms;
 }
 
 
@@ -34,21 +36,19 @@ button {
   
 }
 
-.img_menu {
+.menu_burger_button {
+  background-color: transparent;
   position: absolute;
-  margin-top: 17px;
-  margin-right: auto;
-  margin-bottom: 13px;
-  margin-left: 15px;
+  width: 24px;
+  height: 16px;
+  margin: 17px auto 13px 15px;
+  padding: 0;
+
 }
 
-.img_brain {
-  position: absolute;
-  margin-left: 48px;
-}
 
-.container {
-  
+
+.container { 
   height: auto;
   width: 320px;
 }
@@ -268,7 +268,7 @@ button {
   background-color: rgba(243, 243, 242, 0.8);
   border-radius: 20px;
   position: relative;
-  z-index: 10;
+  z-index: 1;
 }
 
 .section_contaxt_text2 span {
@@ -282,7 +282,7 @@ button {
 }
 
 .footer {
-  background-image: url(./image/rain_bk2.jpg);
+  background-image: url(../image/rain_bk2.jpg);
 }
 
 .copyright {
