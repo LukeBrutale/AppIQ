@@ -29,7 +29,7 @@ button {
   border: none;
   border-radius: 20px;
   font-weight: 700;
-  width: 189px;
+  /* width: 189px; */
   height: 41px;
   margin: 0 auto;
   display: block;
@@ -43,9 +43,7 @@ button {
   height: 16px;
   margin: 17px auto 13px 15px;
   padding: 0;
-
 }
-
 
 
 .container { 
@@ -97,6 +95,7 @@ button {
 
 .btn_main_section {
   margin-top: 150px;
+  width: 189px;
   background: radial-gradient(50% 50% at 50% 50%, #FFC700 0%, #FFC700 100%);
 }
 
@@ -179,6 +178,7 @@ button {
 }
 
 .section_text button{
+  width: 189px;
   background-color:  var(--accent-color);
 }
 
@@ -259,6 +259,7 @@ button {
 }
 
 .section_context button{
+  width: 189px;
   color: var(--title-text-color);
   border: 1px solid var(--title-text-color);
   background-color: transparent;

@@ -7,30 +7,26 @@
   <title>Document</title>
 </head>
 <link rel="stylesheet" type="text/css" href="./css/test.css" />
+<link rel="stylesheet" type="text/css" href="./css/index.css" />
 <body>
   <header class="header">
-    <div class="img_menu"><a href="./menu.html"><img src="./image/menu.png" alt="menu" width="24" height="16"></a></div>
-    <div class="header_nav">
-      <div class="img_brain"><img src="./image/rain_bk3.png" alt="brain" width="48" height="47"></div>
-      <p class="header_text">тест на определение IQ</p>
+    <button type="button" class="menu_burger_button" data-menu-button>
+      <img src="./image/menu.png" alt="menu" width="24" height="16">
+    </button>
+    <div class="menu" data-menu>
+      <button type="button" class="icon_close_btn" data-menu-close>
+        <img src="./image/icon (1).png" class="icon_close">
+      </button>
+      <ul class="list">
+        <li class="list_item"><a href="./index.html" class="list_item_link current">Главная</a></li>
+        <li class="list_item"><a href="" class="list_item_link">Информация о тесте</a></li>
+        <li class="list_item"><a href="./test.html" class="list_item_link">Пройти тест</a></li>
+      </ul>
+        <div class="img_brain"><img src="./image/rain_bk3.png" alt="brain" width="48" height="47"></div>
+        <p class="header_text">тест на определение IQ</p>
     </div>
   </header>
 </body>
 </html>
 
 
-<!-- <header class="header">
-  <button type="button" class="menu_burger_button" data-menu-button>
-    <img src="./image/menu.png" alt="menu" width="24" height="16">
-  </button>
-  <div class="menu" data-menu>
-    <button type="button" class="icon_close_btn" data-menu-close>
-      <img src="./image/icon (1).png" class="icon_close">
-    </button>
-    <ul class="list">
-      <li class="list_item"><a href="./index.html" class="list_item_link current">Главная</a></li>
-      <li class="list_item"><a href="" class="list_item_link">Информация о тесте</a></li>
-      <li class="list_item"><a href="./test.html" class="list_item_link">Пройти тест</a></li>
-    </ul>
-  </div>
-</header> -->
