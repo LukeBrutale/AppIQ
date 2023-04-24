@@ -57,13 +57,30 @@ button {
   height: 46px;
 }
 
+.header_text {
+  font-family: 'Yeseva One';
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent-color);
+
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 9px;
+  margin-top: 18px;
+  margin-right: 20px;
+  margin-bottom: 11px;
+}
+
 
 .main_section {
   background-image: url(../image/rain_bk.jpg);
   background-repeat: no-repeat;
   width: auto;
   height: 522px;
-
 }
 
 .title_text{
@@ -281,3 +298,11 @@ button {
   
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* TEST */
+
+.img_brain {
+  display: flex;
+  margin-left: 48px;
+}
+
